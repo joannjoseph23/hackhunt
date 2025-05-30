@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Filters from './Filters';
+import HackathonList from './HackathonList';
 import './App.css';
 
 function App() {
@@ -12,7 +13,6 @@ function App() {
         <header className="app-header">
           <h1>🚀 HackHunt</h1>
           <p>Find and register for top tech hackathons in India</p>
-
           <input
             type="text"
             placeholder="Search for hackathons..."
@@ -21,6 +21,8 @@ function App() {
             className="search-input"
           />
         </header>
+
+        <HackathonList />
       </div>
     </div>
   );
