@@ -1,0 +1,28 @@
+.filters-container {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.filters-container h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #101820;
+}
+
+.filters-container label {
+  display: block;
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.filters-container input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}

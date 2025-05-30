@@ -52,3 +52,13 @@ body {
   box-shadow: 0 4px 12px rgba(255, 215, 0, 0.7);
   background-color: #fff;
 }
+
+.app-layout {
+  display: flex;
+  padding: 40px 20px;
+}
+
+.main-content {
+  flex: 1;
+}
+
