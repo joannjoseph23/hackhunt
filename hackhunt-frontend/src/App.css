@@ -1,0 +1,32 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f7;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.app-header {
+  background-color: #101820;
+  color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #FFD700;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #e0e0e0;
+}
